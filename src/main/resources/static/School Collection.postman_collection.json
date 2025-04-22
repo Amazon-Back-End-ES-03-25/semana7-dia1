@@ -33,6 +33,33 @@
 				"url": "http://localhost:8080/students"
 			},
 			"response": []
+		},
+		{
+			"name": "Course",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/courses"
+			},
+			"response": []
+		},
+		{
+			"name": "Course by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/courses/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Courses",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8080/courses"
+			},
+			"response": []
 		}
 	]
 }
