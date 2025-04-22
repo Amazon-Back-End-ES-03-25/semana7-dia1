@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "091c49a5-b0d2-4e3d-88bd-f95cca82f694",
+		"name": "School Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21489776",
+		"_collection_link": "https://amazon-es0325.postman.co/workspace/Amazon-ES_03_25~16460180-8383-441d-af12-771a91cd649a/collection/21489776-091c49a5-b0d2-4e3d-88bd-f95cca82f694?action=share&source=collection_link&creator=21489776"
+	},
+	"item": [
+		{
+			"name": "Students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/students"
+			},
+			"response": []
+		},
+		{
+			"name": "Student by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/students/5"
+			},
+			"response": []
+		},
+		{
+			"name": "Students",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8080/students"
+			},
+			"response": []
+		}
+	]
+}
